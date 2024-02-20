@@ -1,4 +1,4 @@
-<h1>I2C<br>
+<h1>I2C</h1>
 
 En este repositorio encontrará los códigos en PIC para diferentes dispositivos que utilizan comunicación I2C, tales como:
 
