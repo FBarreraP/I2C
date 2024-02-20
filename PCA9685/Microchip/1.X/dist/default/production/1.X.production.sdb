@@ -1,0 +1,304 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"80 G:\Meu Drive\PCA9685\Microchip\1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"112
+[v _settings settings `(v  1 e 1 0 ]
+"140
+[v _writeI2C writeI2C `(v  1 e 1 0 ]
+"152
+[v _startI2C startI2C `(v  1 e 1 0 ]
+"157
+[v _readyI2C readyI2C `(v  1 e 1 0 ]
+"161
+[v _sendI2C sendI2C `(v  1 e 1 0 ]
+"166
+[v _stopI2C stopI2C `(v  1 e 1 0 ]
+"194
+[v _repeatedStart repeatedStart `(v  1 e 1 0 ]
+"199
+[v _receiveI2C receiveI2C `(uc  1 e 1 0 ]
+"231
+[v _setPWMFreq setPWMFreq `(v  1 e 1 0 ]
+"259
+[v _readI2C1 readI2C1 `(v  1 e 1 0 ]
+"280
+[v _writeI2C1 writeI2C1 `(v  1 e 1 0 ]
+"289
+[v _map map `(i  1 e 2 0 ]
+"3263 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f4550.h
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"3375
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+[s S52 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657
+[s S61 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S70 . 1 `S52 1 . 1 0 `S61 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES70  1 e 1 @3987 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"4223
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6806
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+"6868
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"6938
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"7186
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"7193
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"8910
+[v _ACKDT ACKDT `VEb  1 e 0 @32301 ]
+"8913
+[v _ACKEN ACKEN `VEb  1 e 0 @32300 ]
+"10275
+[v _PEN PEN `VEb  1 e 0 @32298 ]
+"10434
+[v _RCEN RCEN `VEb  1 e 0 @32299 ]
+"10515
+[v _RSEN RSEN `VEb  1 e 0 @32297 ]
+"10560
+[v _SEN SEN `VEb  1 e 0 @32296 ]
+"72 G:\Meu Drive\PCA9685\Microchip\1.X\main.c
+[v _i i `i  1 e 2 0 ]
+[v _pos pos `i  1 e 2 0 ]
+[v _DriverPin DriverPin `i  1 e 2 0 ]
+"73
+[v _data2 data2 `[4]uc  1 e 4 0 ]
+"80
+[v _main main `(v  1 e 1 0 ]
+{
+"88
+[v main@j j `i  1 a 2 64 ]
+"110
+} 0
+"140
+[v _writeI2C writeI2C `(v  1 e 1 0 ]
+{
+[v writeI2C@Address Address `uc  1 a 1 wreg ]
+[v writeI2C@Address Address `uc  1 a 1 wreg ]
+[v writeI2C@Register Register `uc  1 p 1 2 ]
+[v writeI2C@Data Data `*.39uc  1 p 2 3 ]
+[v writeI2C@bytes bytes `i  1 p 2 5 ]
+[v writeI2C@Address Address `uc  1 a 1 9 ]
+"150
+} 0
+"112
+[v _settings settings `(v  1 e 1 0 ]
+{
+"138
+} 0
+"231
+[v _setPWMFreq setPWMFreq `(v  1 e 1 0 ]
+{
+"239
+[v setPWMFreq@prescaleval prescaleval `ul  1 a 4 56 ]
+"247
+[v setPWMFreq@prescale prescale `uc  1 a 1 54 ]
+"231
+[v setPWMFreq@freq freq `f  1 p 4 49 ]
+"257
+} 0
+"280
+[v _writeI2C1 writeI2C1 `(v  1 e 1 0 ]
+{
+[v writeI2C1@Address Address `uc  1 a 1 wreg ]
+[v writeI2C1@Address Address `uc  1 a 1 wreg ]
+[v writeI2C1@Register Register `uc  1 p 1 2 ]
+[v writeI2C1@Data Data `uc  1 p 1 3 ]
+[v writeI2C1@Address Address `uc  1 a 1 6 ]
+"287
+} 0
+"259
+[v _readI2C1 readI2C1 `(v  1 e 1 0 ]
+{
+[v readI2C1@Address Address `uc  1 a 1 wreg ]
+[v readI2C1@Address Address `uc  1 a 1 wreg ]
+[v readI2C1@Register Register `uc  1 p 1 3 ]
+[v readI2C1@Data Data `uc  1 p 1 4 ]
+[v readI2C1@bytes bytes `i  1 p 2 5 ]
+[v readI2C1@Address Address `uc  1 a 1 9 ]
+"278
+} 0
+"166
+[v _stopI2C stopI2C `(v  1 e 1 0 ]
+{
+"170
+} 0
+"152
+[v _startI2C startI2C `(v  1 e 1 0 ]
+{
+"155
+} 0
+"161
+[v _sendI2C sendI2C `(v  1 e 1 0 ]
+{
+[v sendI2C@data data `uc  1 a 1 wreg ]
+[v sendI2C@data data `uc  1 a 1 wreg ]
+[v sendI2C@data data `uc  1 a 1 1 ]
+"164
+} 0
+"194
+[v _repeatedStart repeatedStart `(v  1 e 1 0 ]
+{
+"197
+} 0
+"199
+[v _receiveI2C receiveI2C `(uc  1 e 1 0 ]
+{
+[v receiveI2C@flag flag `uc  1 a 1 wreg ]
+"200
+[v receiveI2C@buffer buffer `uc  1 a 1 2 ]
+"199
+[v receiveI2C@flag flag `uc  1 a 1 wreg ]
+"201
+[v receiveI2C@flag flag `uc  1 a 1 1 ]
+"210
+} 0
+"157
+[v _readyI2C readyI2C `(v  1 e 1 0 ]
+{
+"159
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 48 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 47 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 39 ]
+"70
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 33 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 26 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 31 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 38 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 37 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 30 ]
+"11
+[v ___fldiv@b b `d  1 p 4 14 ]
+[v ___fldiv@a a `d  1 p 4 18 ]
+"185
+} 0
+"289 G:\Meu Drive\PCA9685\Microchip\1.X\main.c
+[v _map map `(i  1 e 2 0 ]
+{
+[v map@x x `i  1 p 2 14 ]
+[v map@In_Min In_Min `i  1 p 2 16 ]
+[v map@In_Max In_Max `i  1 p 2 18 ]
+[v map@Out_Min Out_Min `i  1 p 2 20 ]
+[v map@Out_Max Out_Max `i  1 p 2 22 ]
+"291
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 12 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 8 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 10 ]
+"53
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
