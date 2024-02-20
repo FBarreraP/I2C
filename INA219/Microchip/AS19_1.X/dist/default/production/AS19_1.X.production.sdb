@@ -1,0 +1,173 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"32 G:\Meu Drive\ECCI\2020_2_1\SeminarioMicros\Aula19\Microchip\AS19_1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"42
+[v _settings settings `(v  1 e 1 0 ]
+"53
+[v _WriteI2C WriteI2C `(v  1 e 1 0 ]
+"65
+[v _StartI2C StartI2C `(v  1 e 1 0 ]
+"70
+[v _ReadyI2C ReadyI2C `(v  1 e 1 0 ]
+"74
+[v _SendI2C SendI2C `(v  1 e 1 0 ]
+"79
+[v _StopI2C StopI2C `(v  1 e 1 0 ]
+"84
+[v _ReadI2C ReadI2C `(v  1 e 1 0 ]
+"102
+[v _RepeatedStartI2C RepeatedStartI2C `(v  1 e 1 0 ]
+"107
+[v _ReceiveI2C ReceiveI2C `(uc  1 e 1 0 ]
+[s S46 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f4550.h
+[s S55 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S64 . 1 `S46 1 . 1 0 `S55 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES64  1 e 1 @3987 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6806
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+"6868
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"6938
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"7186
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"7193
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"7986
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"8910
+[v _ACKDT ACKDT `VEb  1 e 0 @32301 ]
+"8913
+[v _ACKEN ACKEN `VEb  1 e 0 @32300 ]
+"10275
+[v _PEN PEN `VEb  1 e 0 @32298 ]
+"10434
+[v _RCEN RCEN `VEb  1 e 0 @32299 ]
+"10515
+[v _RSEN RSEN `VEb  1 e 0 @32297 ]
+"10560
+[v _SEN SEN `VEb  1 e 0 @32296 ]
+"29 G:\Meu Drive\ECCI\2020_2_1\SeminarioMicros\Aula19\Microchip\AS19_1.X\main.c
+[v _dataSaved dataSaved `[9]uc  1 e 9 0 ]
+[v _name name `[6]uc  1 e 6 0 ]
+"30
+[v _i i `i  1 e 2 0 ]
+"32
+[v _main main `(v  1 e 1 0 ]
+{
+"40
+} 0
+"42
+[v _settings settings `(v  1 e 1 0 ]
+{
+"51
+} 0
+"53
+[v _WriteI2C WriteI2C `(v  1 e 1 0 ]
+{
+[v WriteI2C@Address Address `uc  1 a 1 wreg ]
+[v WriteI2C@Address Address `uc  1 a 1 wreg ]
+[v WriteI2C@Register Register `uc  1 p 1 2 ]
+[v WriteI2C@Data Data `*.39uc  1 p 2 3 ]
+[v WriteI2C@bytes bytes `i  1 p 2 5 ]
+[v WriteI2C@Address Address `uc  1 a 1 9 ]
+"63
+} 0
+"84
+[v _ReadI2C ReadI2C `(v  1 e 1 0 ]
+{
+[v ReadI2C@Address Address `uc  1 a 1 wreg ]
+[v ReadI2C@Address Address `uc  1 a 1 wreg ]
+[v ReadI2C@Register Register `uc  1 p 1 3 ]
+[v ReadI2C@Data Data `*.39uc  1 p 2 4 ]
+[v ReadI2C@bytes bytes `i  1 p 2 6 ]
+[v ReadI2C@Address Address `uc  1 a 1 10 ]
+"100
+} 0
+"79
+[v _StopI2C StopI2C `(v  1 e 1 0 ]
+{
+"82
+} 0
+"65
+[v _StartI2C StartI2C `(v  1 e 1 0 ]
+{
+"68
+} 0
+"74
+[v _SendI2C SendI2C `(v  1 e 1 0 ]
+{
+[v SendI2C@data data `uc  1 a 1 wreg ]
+[v SendI2C@data data `uc  1 a 1 wreg ]
+[v SendI2C@data data `uc  1 a 1 1 ]
+"77
+} 0
+"102
+[v _RepeatedStartI2C RepeatedStartI2C `(v  1 e 1 0 ]
+{
+"105
+} 0
+"107
+[v _ReceiveI2C ReceiveI2C `(uc  1 e 1 0 ]
+{
+[v ReceiveI2C@flag flag `uc  1 a 1 wreg ]
+"108
+[v ReceiveI2C@buffer buffer `uc  1 a 1 2 ]
+"107
+[v ReceiveI2C@flag flag `uc  1 a 1 wreg ]
+"109
+[v ReceiveI2C@flag flag `uc  1 a 1 1 ]
+"117
+} 0
+"70
+[v _ReadyI2C ReadyI2C `(v  1 e 1 0 ]
+{
+"72
+} 0
